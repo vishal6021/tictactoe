@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    text-align:center;
+    background-image:url(img.jpg);
+    background-size: cover;
+    background-position:center;
+
+}
+.container{
+    height:570px;
+    width:1300px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    
+   
+   
+
+}
+.game{
+    height:480px;
+    width:480px;
+    text-align:center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 8px;
+    
+   
+ 
+}
+.box{
+
+height:150px;
+width:150px;
+justify-content: center;
+background-color: rgba(255, 255, 255, 0.379);
+color:black;
+font-size: 100px;
+border:3px thick ;
+border:2.5px solid rgba(0, 0, 0, 0.705);
+border-image-slice: 1;
+border-radius:10%;
+backdrop-filter: 10px;
+}
+.resetbutton{
+    align-items:center;
+    background-color: black;
+    color:blanchedalmond;
+    height:50px;
+    width:100px;
+    border-color:aliceblue;
+    border-radius:30%;
+    
+
+}
+.newgame{
+    align-items:center;
+    background-color: black;
+    color:blanchedalmond;
+    height:50px;
+    width:100px;
+    border-color:aliceblue;
+    border-radius:30%;
+}
+.toshowwinner{
+    font-size: 50px;
+    color:aquamarine;
+    background-color: rgba(189, 183, 107, 0.635);
+    border-radius:30%;
+    margin-bottom: 20px;
+}
+.hide{
+    display:none;
+}
+pre{
+    font-size: 30px;
+    font-family: Copperplate, Papyrus, fantasy;
+    color:azure;
+    background-color: rgba(0, 0, 0, 0.295);
+    border:2px solid white;
+    border-radius: 20%;
+}
